@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    background-color: black;
+    text-overflow: hide;
+    text-decoration: white;
+    text-align: center;
+}
+
+.navbar-brand:hover{
+    color: pink;
+    
+}
+
+.navbar-brand{
+    font-size: 25px;
+    color: white;
+}
+
+.enternum{
+    font-size: 20px;
+    display: flexbox;
+    text-align: center;
+}
+
+.enternum #guess{
+    width: 200px;
+    height: 30px;
+}
+
+#check{
+    width: 70px;
+    height: 40px;
+    color: red;
+    border: 0px;
+}
+
+.btn{
+    display: flexbox;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+#correct{
+    display: none;
+}
+
+#correct{
+    text-align: center;
+    width: 300px;
+    color: green;
+    background-color: red;
+    border: solid 2px black;
+}
+
+#less{
+    display: none;
+}
+
+#less{
+    text-align: center;
+    width: 300px;
+    color: orange;
+    background-color: purple;
+    border: solid 2px black;
+}
+
+#greater{
+    display: none;
+}
+
+#greater{
+    text-align: center;
+    width: 300px;
+    color: white;
+    background-color: green;
+    border: solid 2px black;
+}
+
+#again{
+    width: 70px;
+    height: 40px;
+    color: black;
+    border: 0px;
+}
+
+#again:hover{
+    background-color: blue;
+    color: brown;
+}
+
+#check:hover{
+    color: red;
+    background-color: green;
+}
+
+#history{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.name{
+    padding-top: 150px;
+    padding-left: 30px;
+    display: flexbox;
+    text-align: center;
+    color: yellow;
+    font-size: 70px;
+}

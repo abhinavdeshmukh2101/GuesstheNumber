@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>   
+    <title>Guess the Number</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#"><h1>Guess the Number</h1></a>
+    </nav>
+
+    <div class="name">
+        <h1>1. 2. 3.</h1>
+    </div>
+
+    <div class="enternum">
+        Input:
+        <input id="guess" type="text" placeholder ="What's your guess?">(1-100)<br><br>
+    </div>
+
+    <div id="correct">
+        <p>Awesome, you got it correct!!</p>
+        <p>Thank You for playing this game</p>
+        <p>If you want to play again, click Restart Button!</p>
+    </div>
+
+    <div id="less">
+        <p>Your number is lesser than generated number!!</p>
+        <p>Enter number greater than current input number.</p>
+    </div>
+
+    <div id="greater">
+        <p>Your number is greater than generated number!!</p>
+        <p>Enter number smaller than current input number.</p>
+    </div>
+
+    <div class="btn">
+        <button id="check" onclick="checknumber()">Check Me</button>
+        <button id="again" onclick="restartgame()">Restart</button>
+    </div>
+
+    <div id="history">
+
+    </div>
+</body>
+</html>
