@@ -21,10 +21,14 @@
         <input id="guess" type="text" placeholder ="What's your guess?">(1-100)<br><br>
     </div>
 
+    <div id="start">
+        <p>Game started!</p>
+    </div>
+
     <div id="correct">
         <p>Awesome, you got it correct!!</p>
         <p>Thank You for playing this game</p>
-        <p>If you want to play again, click Restart Button!</p>
+        <p>If you want to play again, click Start Button!</p>
     </div>
 
     <div id="less">
@@ -38,12 +42,11 @@
     </div>
 
     <div class="btn">
-        <button id="check" onclick="checknumber()">Check Me</button>
-        <button id="again" onclick="restartgame()">Restart</button>
+        <button id="again" onclick="startgame()">Start</button>
+        <button id="check">Check Me</button>
     </div>
 
     <div id="history">
-
     </div>
 </body>
 </html>
