@@ -1,10 +1,11 @@
 *{
-    padding: 0;
+    padding: 5px;
     margin: 0;
 }
 
 
 .navbar{
+    padding: 0;
     background-color: black;
     text-overflow: hide;
     text-decoration: white;
@@ -48,9 +49,7 @@
 
 #correct{
     display: none;
-}
-
-#correct{
+    margin: auto;
     text-align: center;
     width: 300px;
     color: green;
@@ -58,23 +57,23 @@
     border: solid 2px black;
 }
 
-#less{
-    display: none;
-}
 
 #less{
+    display: none;
+    margin: auto;
     text-align: center;
+    align-content: center;
     width: 300px;
     color: orange;
     background-color: purple;
     border: solid 2px black;
 }
 
-#greater{
-    display: none;
-}
+
 
 #greater{
+    display: none;
+    margin: auto;
     text-align: center;
     width: 300px;
     color: white;
@@ -100,7 +99,23 @@
 }
 
 #history{
-    padding-top: 20px;
+    display: none;
+}
+
+
+#start{
+    display: none;
+    text-align: center;
+    margin: auto;
+    width: 150px;
+    height: 25px;
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+#history{
+    display: none;
+    margin: auto;
     text-align: center;
 }
 
